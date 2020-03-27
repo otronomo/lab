@@ -13,9 +13,12 @@ def inventory_ios_num_routes(info):
 
 def check_ios_num_routes(item, params, info):
    for routes in info:
+       state = 0
        routes = str(routes[0])
+       if ( int(routes) < 20 ):
+           state = 2
        perfdata = [ ( "rutas", routes, 22, 30 ) ]
-       return (0, "Numero rutas: " + routes, perfdata)
+       return (state, "Numero rutas: " + routes +"-"+ str(state), perfdata)
 
 
 check_info["ios_num_routes"] = {
