@@ -4,7 +4,7 @@ All routes
 snmpwalk -On -v2c -c public 10.20.20.100 1.3.6.1.2.1.4.24.3.0
 
 EIGRP routes:
-snmpwalk -On -v2C -c ekH6bN5# 10.20.20.100 1.3.6.1.4.1.9.9.449.1.2.1.1.19
+snmpwalk -On -v2C -c public 10.20.20.100 1.3.6.1.4.1.9.9.449.1.2.1.1.19
 
 def inventory_ios_num_routes(info):
    for routes in info:
