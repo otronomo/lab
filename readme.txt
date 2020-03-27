@@ -25,3 +25,11 @@ check_info["ios_num_routes"] = {
     "snmp_info"             : ( ".1.3.6.1.2.1.4.24.3", ["0"] ),
     'has_perfdata'          : True,
 }
+
+Route table:
+
+Name:
+ipRouteTable
+Oid:
+1.3.6.1.2.1.4.21
+
