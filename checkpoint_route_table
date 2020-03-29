@@ -1,0 +1,25 @@
+def inventory_checkpoint_route_table(info):
+   yield '', None
+
+
+def check_checkpoint_route_table(item, _no_params, info):
+
+   route_list = ''
+
+   for element in info:
+       network = element[0]
+       mask = element[2]
+       next_hop = element[1]
+       route = str(network) + " -  " + str(mask) + "   ------->  " + str(next_hop) + " \n "
+       #route = str(network) + " " + str(mask) + " " + str(next_hop)
+       route_list += route
+
+   return (0, "Lista de rutas:" + route_list)
+
+
+check_info["checkpoint_route_table"] = {
+    "check_function"        : check_checkpoint_route_table,
+    "inventory_function"    : inventory_checkpoint_route_table,
+    "service_description"   : "Rutas por SNMP",
+    "snmp_info"             : ( ".1.3.6.1.2.1.4.21.1", ["1", "7", "11"] ),
+}
