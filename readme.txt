@@ -1,26 +1,5 @@
-root@nms:/home/alex# snmpwalk -On -v2C -c public 10.20.20.100 1.3.6.1.2.1.4.20.1.2.10.125.125.1
-.1.3.6.1.2.1.4.20.1.2.10.125.125.1 = INTEGER: 8
-root@nms:/home/alex# 
-root@nms:/home/alex# 
-root@nms:/home/alex# snmpwalk -On -v2C -c public 10.20.20.100 1.3.6.1.2.1.2.2.1.2
-.1.3.6.1.2.1.2.2.1.2.1 = STRING: "Ethernet0/0"
-.1.3.6.1.2.1.2.2.1.2.2 = STRING: "Ethernet0/1"
-.1.3.6.1.2.1.2.2.1.2.3 = STRING: "Ethernet0/2"
-.1.3.6.1.2.1.2.2.1.2.4 = STRING: "Ethernet0/3"
-.1.3.6.1.2.1.2.2.1.2.5 = STRING: "VoIP-Null0"
-.1.3.6.1.2.1.2.2.1.2.6 = STRING: "Null0"
-.1.3.6.1.2.1.2.2.1.2.7 = STRING: "Loopback0"
-.1.3.6.1.2.1.2.2.1.2.8 = STRING: "Loopback100"
-.1.3.6.1.2.1.2.2.1.2.9 = STRING: "Ethernet0/2.125"
-.1.3.6.1.2.1.2.2.1.2.10 = STRING: "Ethernet0/3.125"
+SNMPv2-MIB::sysUpTime.0: 43559696 , SNMP-COMMUNITY-MIB::snmpTrapAddress.0: 10.228.189.66 , SNMP-COMMUNITY-MIB::snmpTrapCommunity.0: *v4y4ch0rraz0%de@comunnity$. , SNMPv2-MIB::snmpTrapEnterprise.0: SNMPv2-SMI::enterprises.12356.101.1.6006 , SNMPv2-SMI::enterprises.12356.100.1.1.1.0: FG6H1E5819903914, SNMPv2-MIB::sysName.0: fwforticajeros01cr 
 
-root@nms:/home/alex# snmpwalk -On -v2C -c public 10.20.20.100 1.3.6.1.2.1.4.20.1.1
-.1.3.6.1.2.1.4.20.1.1.10.1.1.1 = IpAddress: 10.1.1.1
-.1.3.6.1.2.1.4.20.1.1.10.20.20.100 = IpAddress: 10.20.20.100
-.1.3.6.1.2.1.4.20.1.1.10.30.30.1 = IpAddress: 10.30.30.1
-.1.3.6.1.2.1.4.20.1.1.10.120.1.2 = IpAddress: 10.120.1.2
-.1.3.6.1.2.1.4.20.1.1.10.120.1.9 = IpAddress: 10.120.1.9
-.1.3.6.1.2.1.4.20.1.1.10.125.1.2 = IpAddress: 10.125.1.2
-.1.3.6.1.2.1.4.20.1.1.10.125.1.6 = IpAddress: 10.125.1.6
-.1.3.6.1.2.1.4.20.1.1.10.125.125.1 = IpAddress: 10.125.125.1
+SNMPv2-MIB::sysUpTime.0: 43559696 , SNMPv2-SMI::enterprises.12356.100.1.1.1.0: FG6H1E5819903914, SNMPv2-MIB::sysName.0: fwforticajeros01cr 
 
+SNMPv2-MIB::sysUpTime.0: 30605708 , SNMPv2-SMI-v1::enterprises.12356.100.1.1.1.0: FG6H1E5819903914, SNMPv2-MIB::sysName.0: fwforticajeros01cr , SNMPv2-SMI-v1::enterprises.12356.101.4.4.4.1.0: 0
