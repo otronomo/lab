@@ -1,4 +1,1 @@
-Docu de prometheus para altas
-https://confluence.europe.intranet/display/SPO/How+to+get+to+monitor+your+service+with+Prometheus#space-menu-link-content
-
-https://confluence.europe.intranet/display/SPO/How+to+properly+expose+your+Prometheus+metrics
+https://nttlimited.webex.com/nttlimited/j.php?MTID=m8884a2abb5d253480cdd8247f29e8aa4
