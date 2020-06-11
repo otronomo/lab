@@ -1,5 +1,4 @@
-wget --user r-ingspain https://checkmk.com/support/1.6.0p12/check-mk-enterprise-1.6.0p12-el7-38.x86_64.rpm --ask-password
-
-Download Subscription https://checkmk.de/download.php
-User name r-ingspain
-Password 8USsbROl
+CISCO-IF-EXTENSION-MIB - Failed to compile (no module "SNMPv2-TC-v1" in symbolTable at MIB CISCO-IF-EXTENSION-MIB)
+CISCO-TC - Dependency missing
+RFC-1212 - Dependency missing
+SNMPv2-TC-v1 - Dependency missing
